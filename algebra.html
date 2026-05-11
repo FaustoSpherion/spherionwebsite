@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Spherion Algebra — Spherion</title>
+  <meta name="description" content="The symbolic layer of Spherion: nested zone codes, fan-out, collapse, weighing, and probabilistic inclusion." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="logo" href="index.html" aria-label="Spherion home"><span class="logo-mark">𝕊</span><span>Spherion<small>Sphere-first research</small></span></a>
+      <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="nav-links" data-nav-links aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="geometry.html">Geometry</a>
+<a href="algebra.html" aria-current="page">Algebra</a>
+<a href="kernel.html">SOS Kernel</a>
+<a href="applications.html">Applications</a>
+<a href="resources.html">Resources</a>
+<a href="get-involved.html">Get Involved</a>
+<a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+
+<section class="section page-title">
+  <p class="eyebrow">Spherion Algebra</p>
+  <h1>A symbolic language for nested spherical structure.</h1>
+  <p class="lead">Spherion Algebra formalizes operations on zone codes. It treats spherical inclusion, subdivision, collapse, and weighting as algebraic actions rather than as afterthoughts added to Cartesian coordinates.</p>
+</section>
+<section class="section">
+  <div class="grid three">
+    <article class="card"><p class="num">fan-out</p><h3>Refine a zone</h3><p>A parent zone expands into child zones, increasing descriptive resolution while preserving ancestry.</p></article>
+    <article class="card"><p class="num">collapse</p><h3>Merge or select</h3><p>A set of refined alternatives may be collapsed into a parent state or a selected representative, depending on the rule used.</p></article>
+    <article class="card"><p class="num">weigh</p><h3>Attach uncertainty</h3><p>Probability, confidence, or evidence can be attached to zones without pretending that every state is fully determined.</p></article>
+  </div>
+</section>
+<section class="section">
+  <h2>Algebraic intuition</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Classical habit</th><th>Spherion alternative</th><th>Reason</th></tr></thead>
+      <tbody>
+        <tr><td>Point as primitive</td><td>Zone or inclusion state</td><td>A point can be treated as a limiting refinement, not the starting object.</td></tr>
+        <tr><td>Coordinates as identity</td><td>Nested zone code</td><td>Identity records structural path and resolution.</td></tr>
+        <tr><td>Distance first</td><td>Adjacency and shared ancestry first</td><td>Locality is structural before it is numerical.</td></tr>
+        <tr><td>Uncertainty as error</td><td>Uncertainty as encoded overlap</td><td>Ambiguity can be represented as part of the model.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<section class="section">
+  <div class="callout">
+    <h2>Example: zone code</h2>
+    <p>A simple website-level notation may write a location as a path through nested zones:</p>
+    <p class="formula"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>P</mi><mo>=</mo><mo>(</mo><mi>H</mi><mo>,</mo><msub><mi>C</mi><mn>0</mn></msub><mo>,</mo><msub><mi>C</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>C</mi><mi>n</mi></msub><mo>)</mo></math></p>
+    <p>This should be treated as a public-facing simplification. The research library can contain the stronger, more precise notation.</p>
+  </div>
+</section>
+
+  </main>
+  
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <a class="logo" href="index.html" aria-label="Spherion home"><span class="logo-mark">𝕊</span><span>Spherion<small>Geometry · Algebra · Computation</small></span></a>
+      <p class="muted" style="margin-top:1rem">A sphere-first research framework for structure, motion, uncertainty, and computation.</p>
+    </div>
+    <div>
+      <h3>Explore</h3>
+      <a href="geometry.html">Spherion Geometry</a>
+      <a href="algebra.html">Spherion Algebra</a>
+      <a href="kernel.html">SOS Kernel</a>
+      <a href="resources.html">Research Library</a>
+    </div>
+    <div>
+      <h3>Participate</h3>
+      <a href="get-involved.html">Get Involved</a>
+      <a href="contact.html">Contact</a>
+      <a href="mailto:fausto@spheriongeometric.org">fausto@spheriongeometric.org</a>
+    </div>
+  </div>
+  <p class="notice">Research status: Spherion is presented as an original research program and conceptual-computational framework. The site invites review, critique, formalization, and collaboration.</p>
+</footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
